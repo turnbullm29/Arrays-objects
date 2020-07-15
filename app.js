@@ -54,3 +54,11 @@ for (var i = 0; i < cars.length; i++ ) {
     var eachCar = cars[i];
     console.log(eachCar);
 }
+
+const food = ['pizza', 'steak', 'burger'];
+console.log(food);
+
+for (let i = 0; i < food.length; i++) {
+    let eachFood = food[i]; // pizza, steak ...
+    console.log(eachFood);
+}
