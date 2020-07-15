@@ -27,3 +27,11 @@ while (myOtherNumber < numberTwo) {
     console.log(myOtherNumber); // 10, 11, 12
     myOtherNumber += 1; // 11, 12, 13
 }
+
+var numberThree = 30;
+var numberFour = 15;
+
+while (numberFour < numberThree) {
+    console.log(numberFour);
+    numberFour += 1;
+}
