@@ -62,3 +62,36 @@ for (let i = 0; i < food.length; i++) {
     let eachFood = food[i]; // pizza, steak ...
     console.log(eachFood);
 }
+
+// objects
+//key: value pairs
+
+const Malik = {
+    fullName: 'Malik Turnbull',
+    age: 21,
+    mylocation: 'North Carolina',
+    placesTraveled: ['Miami', 'Richmond', 'DC', 'New York']
+}
+
+console.log(Malik);
+
+//myLocation
+console.log(Malik.mylocation);
+
+// print New York
+console.log(Malik.placesTraveled[3]);
+
+const myinstagramPost = {
+    username: '@tbull',
+    likes: 3200,
+    comments: ['really cool post', 'nice', 'woah'],
+    caption: 'Day 3 in NY',
+    picture: 'http://instagram.com',
+    shares: 12
+}
+// console.log(myReallyCoolPost);
+
+myinstagramPost.location = 'New York';
+
+//Likes,Captions, Shares, Comments, Username, Pictures
+
