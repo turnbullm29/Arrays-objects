@@ -9,6 +9,8 @@ console.log(favoritenumber);
 
 var teams = ['patriots', 'giants', 'saints', 'panthers'];
 console.log(teams);
+var cars = ['Pagani', 'lamborghini', 'ferrari', 'Bugatti'];
+console.log(cars);
 
 // While loops
 var number = 10;
@@ -45,4 +47,9 @@ for (var i = 0; i < 10; i++) {
 for (var i = 0; i < teams.length; i++ ) {
     var eachTeam = teams[i];
     console.log(eachTeam);
+}
+
+for (var i = 0; i < cars.length; i++ ) {
+    var eachCar = cars[i];
+    console.log(eachCar);
 }
