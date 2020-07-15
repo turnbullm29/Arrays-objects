@@ -35,3 +35,14 @@ while (numberFour < numberThree) {
     console.log(numberFour);
     numberFour += 1;
 }
+
+// for loops
+for (var i = 0; i < 10; i++) {
+    console.log(i); // 0, 1, 2, 3...
+}
+
+// print teams
+for (var i = 0; i < teams.length; i++ ) {
+    var eachTeam = teams[i];
+    console.log(eachTeam);
+}
