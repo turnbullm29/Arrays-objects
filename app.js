@@ -49,6 +49,7 @@ for (var i = 0; i < teams.length; i++ ) {
     console.log(eachTeam);
 }
 
+// print cars
 for (var i = 0; i < cars.length; i++ ) {
     var eachCar = cars[i];
     console.log(eachCar);
