@@ -95,3 +95,52 @@ myinstagramPost.location = 'New York';
 
 //Likes,Captions, Shares, Comments, Username, Pictures
 
+//functions
+//standard
+console.log('Hello');
+
+function sayHello() {
+    // write my code
+    // write your logic
+    console.log('Hello');
+}
+
+sayHello();
+sayHello();
+
+// function expression
+const sayHelloAgain = function() {
+    console.log('Hello Again');
+};
+sayHelloAgain();
+
+//arrow Function
+const sayHelloFinal = () => {
+    console.log('Hello for the last time');
+}
+
+sayHelloFinal();
+
+const otherNumbers = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+function printNumbers(numbers) {
+    console.log(numbers);
+}
+
+printNumbers(numbers);
+
+//Returning
+printNumbers(otherNumbers);
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+function addNumbers(array) {
+    let result = 0;
+    
+    for (let i = 0; i < array.length; i++) {
+       let num = array[i];// 1, 2, 3, 4, 5
+
+       result += num; // 1, 3, 6, 10, 15, ...
+    }
+
+   return result;
+}
